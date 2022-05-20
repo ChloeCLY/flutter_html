@@ -15,7 +15,10 @@ dependencies:
 #  flutter_html:
 #    path: ../..
 
-  flutter_math_fork: '>=0.6.0 <1.0.0'
+  flutter_math_fork:
+     git:
+       url: https://github.com/michalsrutek/flutter_math_fork.git
+       ref: 42176641cd1a2cb74dfe481163af64829a4b00a4
 
 dev_dependencies:
   flutter_test:
